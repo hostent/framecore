@@ -11,8 +11,7 @@ import io.framecore.Tool.PropertiesHelp;
 public class MyKafkaConsumer {
 	
 	
-	//nohup java -Xms256m -Xmx512m -jar -Dloader.path=lib -Dspring.config.location=GameOpenResultConsume/ -Djava.security.auth.login.config=/www/SAAS/GameOpenResultConsume/kafka_client_jaas.conf GameOpenResultConsume/GameOpenResultConsume-0.0.1.jar >> GameOpenResultConsume/GameOpenResultConsume.out &
-
+ 
 	public static KafkaConsumer<String, String> getConsumerAuth(String module,String groupId)   {
 		
 		Properties props = new Properties(); 
