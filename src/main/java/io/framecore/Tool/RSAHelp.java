@@ -235,7 +235,7 @@ public class RSAHelp {
 
 	public static void main(String[] args) {
 		Map<String, Object> keyMap;
-		// {\"inviteCodeRebatesList\":[{\"GCODE\":\"CP001\",\"MAXREBATES\":0.4}]}
+		 
 		String input = "ts=32323232";
 		try {
 			keyMap = initKey();
