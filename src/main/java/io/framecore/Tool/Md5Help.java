@@ -32,7 +32,7 @@ public class Md5Help {
 	}
 
 	public static  void main(String[] args){
-		String pinObscure ="io.rhino.jkf#sa9!939&^Jk573k=3n";
+		String pinObscure ="fdsds#sa9!939&^Jk573k=3n";
 		String md5Pin=Md5Help.toMD5(new String("ASDASFESDFAS"));
 		System.out.println(md5Pin);
 		String md5 = Md5Help.toMD5(md5Pin+pinObscure);
